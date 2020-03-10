@@ -1,0 +1,45 @@
+<html>
+    
+<head>
+    <meta charset="UTF-8">    
+    <title>CalculadoraJS</title>
+    <script src="calculadoraJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculadoraJS.css">
+</head>
+
+<Body>
+    <h1>Calculadora simples JavaScript</h1>
+    <div id="bloco">        
+        <div id="numero1">
+            <label>Digite o primeiro número:</label><br>
+            <input type="text" id="num1" />
+        </div>
+
+        <div id="escolha">
+            <label>Escolha operção:</label><br>
+            <select id="operacao">
+                <option value="0">?</option>
+                <option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">/</option>
+                <option value="4">*</option>
+            </select>
+        </div>
+
+        <div id="numero2">
+            <label>Digite o segundo número:</label><br>
+            <input type="text" id="num2" />
+        </div>
+
+        <div id="botao">
+            <button id="calcular" onclick="calcular()">=</button>
+        </div>
+
+        <div id="final">
+            <label>Resultado da operação:</label><br>
+            <input type="text" id="resultado" />
+        </div>
+    </div>
+</Body>
+
+</html>
